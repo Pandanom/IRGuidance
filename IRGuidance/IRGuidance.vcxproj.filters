@@ -21,7 +21,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IRGuidance.ino" />
+    <ClCompile Include="Demod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Regulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +35,13 @@
     <ClInclude Include="__vm\.IRGuidance.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Demod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Regulator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
